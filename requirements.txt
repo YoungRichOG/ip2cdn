@@ -1,0 +1,8 @@
+aliyun_python_sdk_cdn==3.7.1
+aliyun_python_sdk_core==2.13.36
+baidubce==0.8.3
+bce_python_sdk==0.8.64
+huaweicloudsdkcdn==3.0.77
+huaweicloudsdkcore==3.0.77
+requests
+tencentcloud_sdk_python==3.0.585
