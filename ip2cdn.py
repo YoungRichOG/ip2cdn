@@ -28,9 +28,9 @@ def main(filename):
 
 	# _huaweisdk = {huaweisdk_executor.submit(huaweisdk.main, ip): ip for ip in _iplist}
 
-	for future in concurrent.futures.as_completed(_huaweisdk):
-		data = future.result()
-		print(data)
+	# for future in concurrent.futures.as_completed(_huaweisdk):
+	# 	data = future.result()
+	# 	print(data)
 
 	for future in concurrent.futures.as_completed(_tencentsdk):
 		data = future.result()
